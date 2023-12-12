@@ -48,7 +48,7 @@ const app = Vue.createApp({
       }
       return this.name + " " + "Lee";
     },
-    setName(event, lastName) {
+    setName(event) {
       this.name = event.target.value;
     },
     add(num) {
